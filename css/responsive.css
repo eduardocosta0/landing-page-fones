@@ -1,0 +1,162 @@
+
+@media screen and (max-width: 1024px) {
+    
+  .meio h1 {
+    font-size: 40px;
+  }
+
+  .meio p {
+    font-size: 18px;
+  }
+  .fone-centro img {
+    width: 400px;
+
+    }
+
+  .cont2 {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .cont3 {
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 20px;
+  }
+
+  .cont4 {
+    flex-direction: column;
+    gap: 60px;
+    padding: 80px 20px;
+  }
+
+  .cont4 h2 {
+    position: relative;
+    margin: 0 0 40px 0;
+    text-align: center;
+  }
+
+}
+
+
+@media  screen and (max-width: 768px) {
+  .logo {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .logo h2 {
+    margin-left: 0;
+  }
+
+  .comprar-btn {
+    margin-left: 0;
+  }
+
+  .meio h1 {
+    font-size: 32px;
+    padding: 0 15px;
+  }
+
+
+  .fone-centro img {
+    max-width: 300px;
+  }
+
+  .cont2 h2 {
+    font-size: 22px;
+  }
+
+  .cont2 p {
+    font-size: 16px;
+  }
+
+  .cont3 img {
+    max-width: 350px;
+  }
+
+  .cont3-texto {
+    max-width: 100%;
+  }
+
+  .comprar-btn1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .cont4 {
+    gap: 40px;
+  }
+
+  .fones img {
+    max-width: 200px;
+  }
+
+  .comprar-btn2 {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 15px;
+        gap: 10px;
+        
+    }
+    .comprar-btn {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+  .meio h1 {
+    font-size: 26px;
+  }
+
+  .meio p {
+    font-size: 14px;
+  }
+
+  .fone-centro img {
+    max-width: 250px;
+  }
+
+  .cont2 h2 {
+    font-size: 20px;
+  }
+
+  .cont2 p {
+    font-size: 14px;
+  }
+
+  .cont3-texto h2 {
+    font-size: 20px;
+  }
+
+  .cont3-texto p {
+    font-size: 14px;
+  }
+
+  .cont4 h2 {
+    font-size: 26px;
+  }
+
+  .cont4 img {
+    max-width: 150px;
+  }
+
+  .fones p {
+    
+    font-size: 20px;
+  }
+  .final p {
+    text-align: center;
+    font-size: 17px;
+  }
+}
